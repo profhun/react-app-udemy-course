@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render/component ExpenseListItem 1`] = `
+<li>
+  <h4>
+    zokni a lábon
+  </h4>
+  <div>
+    400
+  </div>
+  <div>
+    -864000000
+  </div>
+  <Link
+    replace={false}
+    to="/edit/zokni"
+  >
+    edit
+  </Link>
+</li>
+`;

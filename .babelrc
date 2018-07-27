@@ -1,0 +1,10 @@
+{
+    "presets": [ "env" , "react" ],
+    "ignore": [
+        "node_modules"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ]
+}

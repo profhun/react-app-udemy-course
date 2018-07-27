@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render/component ExpenseList 1`] = `
+<div>
+  <h2>
+    Expense List
+  </h2>
+  <p>
+    Tételek száma: 
+    4
+  </p>
+  <ol>
+    <ExpenseListItem
+      amount={400}
+      createdAt={-864000000}
+      description="zokni a lábon"
+      id="zokni"
+      key="zokni"
+      note=""
+    />
+    <ExpenseListItem
+      amount={300}
+      createdAt={-777600000}
+      description="hawaii pizza"
+      id="pizza"
+      key="pizza"
+      note=""
+    />
+    <ExpenseListItem
+      amount={200}
+      createdAt={604800000}
+      description="BBQ"
+      id="hamburger"
+      key="hamburger"
+      note=""
+    />
+    <ExpenseListItem
+      amount={100}
+      createdAt={691200000}
+      description="from japan"
+      id="green tea"
+      key="green tea"
+      note=""
+    />
+  </ol>
+</div>
+`;
+
+exports[`render/component ExpenseList with no item 1`] = `
+<div>
+  <h2>
+    Expense List
+  </h2>
+  <p>
+    Tételek száma: 
+    0
+  </p>
+  <h4>
+    Nincs semmi kiadásod. Örüljél!
+  </h4>
+</div>
+`;
