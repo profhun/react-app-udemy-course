@@ -10,7 +10,7 @@
     "build-dev": "webpack-dev-server --env dev",
     "build-live": "webpack -p --env production",
     "test": "jest --config=jest.config.json",
-    "up": "node server/server.js",
+    "start": "node server/server.js",
     "heroku-postbuild": "yarn run build-live"
   },
   "dependencies": {
